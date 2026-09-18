@@ -1,0 +1,803 @@
+[
+  {
+    "id": 1,
+    "conference": "East",
+    "division": "Southeast",
+    "city": "Atlanta",
+    "name": "Hawks",
+    "full_name": "Atlanta Hawks",
+    "abbreviation": "ATL"
+  },
+  {
+    "id": 2,
+    "conference": "East",
+    "division": "Atlantic",
+    "city": "Boston",
+    "name": "Celtics",
+    "full_name": "Boston Celtics",
+    "abbreviation": "BOS"
+  },
+  {
+    "id": 3,
+    "conference": "East",
+    "division": "Atlantic",
+    "city": "Brooklyn",
+    "name": "Nets",
+    "full_name": "Brooklyn Nets",
+    "abbreviation": "BKN"
+  },
+  {
+    "id": 4,
+    "conference": "East",
+    "division": "Southeast",
+    "city": "Charlotte",
+    "name": "Hornets",
+    "full_name": "Charlotte Hornets",
+    "abbreviation": "CHA"
+  },
+  {
+    "id": 5,
+    "conference": "East",
+    "division": "Central",
+    "city": "Chicago",
+    "name": "Bulls",
+    "full_name": "Chicago Bulls",
+    "abbreviation": "CHI"
+  },
+  {
+    "id": 6,
+    "conference": "East",
+    "division": "Central",
+    "city": "Cleveland",
+    "name": "Cavaliers",
+    "full_name": "Cleveland Cavaliers",
+    "abbreviation": "CLE"
+  },
+  {
+    "id": 7,
+    "conference": "West",
+    "division": "Southwest",
+    "city": "Dallas",
+    "name": "Mavericks",
+    "full_name": "Dallas Mavericks",
+    "abbreviation": "DAL"
+  },
+  {
+    "id": 8,
+    "conference": "West",
+    "division": "Northwest",
+    "city": "Denver",
+    "name": "Nuggets",
+    "full_name": "Denver Nuggets",
+    "abbreviation": "DEN"
+  },
+  {
+    "id": 9,
+    "conference": "East",
+    "division": "Central",
+    "city": "Detroit",
+    "name": "Pistons",
+    "full_name": "Detroit Pistons",
+    "abbreviation": "DET"
+  },
+  {
+    "id": 10,
+    "conference": "West",
+    "division": "Pacific",
+    "city": "Golden State",
+    "name": "Warriors",
+    "full_name": "Golden State Warriors",
+    "abbreviation": "GSW"
+  },
+  {
+    "id": 11,
+    "conference": "West",
+    "division": "Southwest",
+    "city": "Houston",
+    "name": "Rockets",
+    "full_name": "Houston Rockets",
+    "abbreviation": "HOU"
+  },
+  {
+    "id": 12,
+    "conference": "East",
+    "division": "Central",
+    "city": "Indiana",
+    "name": "Pacers",
+    "full_name": "Indiana Pacers",
+    "abbreviation": "IND"
+  },
+  {
+    "id": 13,
+    "conference": "West",
+    "division": "Pacific",
+    "city": "LA",
+    "name": "Clippers",
+    "full_name": "LA Clippers",
+    "abbreviation": "LAC"
+  },
+  {
+    "id": 14,
+    "conference": "West",
+    "division": "Pacific",
+    "city": "Los Angeles",
+    "name": "Lakers",
+    "full_name": "Los Angeles Lakers",
+    "abbreviation": "LAL"
+  },
+  {
+    "id": 15,
+    "conference": "West",
+    "division": "Southwest",
+    "city": "Memphis",
+    "name": "Grizzlies",
+    "full_name": "Memphis Grizzlies",
+    "abbreviation": "MEM"
+  },
+  {
+    "id": 16,
+    "conference": "East",
+    "division": "Southeast",
+    "city": "Miami",
+    "name": "Heat",
+    "full_name": "Miami Heat",
+    "abbreviation": "MIA"
+  },
+  {
+    "id": 17,
+    "conference": "East",
+    "division": "Central",
+    "city": "Milwaukee",
+    "name": "Bucks",
+    "full_name": "Milwaukee Bucks",
+    "abbreviation": "MIL"
+  },
+  {
+    "id": 18,
+    "conference": "West",
+    "division": "Northwest",
+    "city": "Minnesota",
+    "name": "Timberwolves",
+    "full_name": "Minnesota Timberwolves",
+    "abbreviation": "MIN"
+  },
+  {
+    "id": 19,
+    "conference": "West",
+    "division": "Southwest",
+    "city": "New Orleans",
+    "name": "Pelicans",
+    "full_name": "New Orleans Pelicans",
+    "abbreviation": "NOP"
+  },
+  {
+    "id": 20,
+    "conference": "East",
+    "division": "Atlantic",
+    "city": "New York",
+    "name": "Knicks",
+    "full_name": "New York Knicks",
+    "abbreviation": "NYK"
+  },
+  {
+    "id": 21,
+    "conference": "West",
+    "division": "Northwest",
+    "city": "Oklahoma City",
+    "name": "Thunder",
+    "full_name": "Oklahoma City Thunder",
+    "abbreviation": "OKC"
+  },
+  {
+    "id": 22,
+    "conference": "East",
+    "division": "Southeast",
+    "city": "Orlando",
+    "name": "Magic",
+    "full_name": "Orlando Magic",
+    "abbreviation": "ORL"
+  },
+  {
+    "id": 23,
+    "conference": "East",
+    "division": "Atlantic",
+    "city": "Philadelphia",
+    "name": "76ers",
+    "full_name": "Philadelphia 76ers",
+    "abbreviation": "PHI"
+  },
+  {
+    "id": 24,
+    "conference": "West",
+    "division": "Pacific",
+    "city": "Phoenix",
+    "name": "Suns",
+    "full_name": "Phoenix Suns",
+    "abbreviation": "PHX"
+  },
+  {
+    "id": 25,
+    "conference": "West",
+    "division": "Northwest",
+    "city": "Portland",
+    "name": "Trail Blazers",
+    "full_name": "Portland Trail Blazers",
+    "abbreviation": "POR"
+  },
+  {
+    "id": 26,
+    "conference": "West",
+    "division": "Pacific",
+    "city": "Sacramento",
+    "name": "Kings",
+    "full_name": "Sacramento Kings",
+    "abbreviation": "SAC"
+  },
+  {
+    "id": 27,
+    "conference": "West",
+    "division": "Southwest",
+    "city": "San Antonio",
+    "name": "Spurs",
+    "full_name": "San Antonio Spurs",
+    "abbreviation": "SAS"
+  },
+  {
+    "id": 28,
+    "conference": "East",
+    "division": "Atlantic",
+    "city": "Toronto",
+    "name": "Raptors",
+    "full_name": "Toronto Raptors",
+    "abbreviation": "TOR"
+  },
+  {
+    "id": 29,
+    "conference": "West",
+    "division": "Northwest",
+    "city": "Utah",
+    "name": "Jazz",
+    "full_name": "Utah Jazz",
+    "abbreviation": "UTA"
+  },
+  {
+    "id": 30,
+    "conference": "East",
+    "division": "Southeast",
+    "city": "Washington",
+    "name": "Wizards",
+    "full_name": "Washington Wizards",
+    "abbreviation": "WAS"
+  },
+  {
+    "id": 37,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Chicago Stags",
+    "full_name": "Chicago Stags",
+    "abbreviation": "CHS"
+  },
+  {
+    "id": 38,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "St. Louis Bombers",
+    "full_name": "St. Louis Bombers",
+    "abbreviation": "BOM"
+  },
+  {
+    "id": 39,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Cleveland Rebels",
+    "full_name": "Cleveland Rebels",
+    "abbreviation": "CLR"
+  },
+  {
+    "id": 40,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Detroit Falcons",
+    "full_name": "Detroit Falcons",
+    "abbreviation": "DEF"
+  },
+  {
+    "id": 41,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Toronto Huskies",
+    "full_name": "Toronto Huskies",
+    "abbreviation": "HUS"
+  },
+  {
+    "id": 42,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Washington Capitols",
+    "full_name": "Washington Capitols",
+    "abbreviation": "WAS"
+  },
+  {
+    "id": 43,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Providence Steamrollers",
+    "full_name": "Providence Steamrollers",
+    "abbreviation": "PRO"
+  },
+  {
+    "id": 44,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Pittsburgh Ironmen",
+    "full_name": "Pittsburgh Ironmen",
+    "abbreviation": "PIT"
+  },
+  {
+    "id": 45,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Baltimore Bullets",
+    "full_name": "Baltimore Bullets",
+    "abbreviation": "BAL"
+  },
+  {
+    "id": 46,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Indianapolis Jets",
+    "full_name": "Indianapolis Jets",
+    "abbreviation": "JET"
+  },
+  {
+    "id": 47,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Anderson Packers",
+    "full_name": "Anderson Packers",
+    "abbreviation": "AND"
+  },
+  {
+    "id": 48,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Waterloo Hawks",
+    "full_name": "Waterloo Hawks",
+    "abbreviation": "WAT"
+  },
+  {
+    "id": 49,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Indianapolis Olympians",
+    "full_name": "Indianapolis Olympians",
+    "abbreviation": "INO"
+  },
+  {
+    "id": 50,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Denver Nuggets",
+    "full_name": "Denver Nuggets",
+    "abbreviation": "DN"
+  },
+  {
+    "id": 51,
+    "conference": "    ",
+    "division": "",
+    "city": "",
+    "name": "Sheboygan Redskins",
+    "full_name": "Sheboygan Redskins",
+    "abbreviation": "SHE"
+  },
+  {
+    "id": 2844,
+    "conference": "    ",
+    "division": "",
+    "city": "Barcelona",
+    "name": "Winterthur FC",
+    "full_name": "Barcelona Winterthur FC",
+    "abbreviation": "BAR"
+  },
+  {
+    "id": 2846,
+    "conference": "    ",
+    "division": "",
+    "city": "Lyon-Villeurbanne",
+    "name": "Adecco ASVEL",
+    "full_name": "Lyon-Villeurbanne Adecco ASVEL",
+    "abbreviation": "LYV"
+  },
+  {
+    "id": 2848,
+    "conference": "    ",
+    "division": "",
+    "city": "Khimki",
+    "name": "BC",
+    "full_name": "Khimki BC",
+    "abbreviation": "KHI"
+  },
+  {
+    "id": 2850,
+    "conference": "    ",
+    "division": "",
+    "city": "Roma",
+    "name": "Virtus Lottomatica",
+    "full_name": "Roma Virtus Lottomatica",
+    "abbreviation": "ROM"
+  },
+  {
+    "id": 2852,
+    "conference": "    ",
+    "division": "",
+    "city": "Tel Aviv",
+    "name": "Maccabi Elite",
+    "full_name": "Tel Aviv Maccabi Elite",
+    "abbreviation": "MTA"
+  },
+  {
+    "id": 2854,
+    "conference": "    ",
+    "division": "",
+    "city": "Moscow",
+    "name": "CSKA",
+    "full_name": "Moscow CSKA",
+    "abbreviation": "MOS"
+  },
+  {
+    "id": 2865,
+    "conference": "    ",
+    "division": "",
+    "city": "Istanbul",
+    "name": "Efes Pilsen",
+    "full_name": "Istanbul Efes Pilsen",
+    "abbreviation": "EPT"
+  },
+  {
+    "id": 3094,
+    "conference": "    ",
+    "division": "",
+    "city": "Lottomatica",
+    "name": "Lottomatica Roma",
+    "full_name": "Lottomatica Lottomatica Roma",
+    "abbreviation": "LRO"
+  },
+  {
+    "id": 3114,
+    "conference": "    ",
+    "division": "",
+    "city": "Unicaja Malaga",
+    "name": "Unicaja Malaga",
+    "full_name": "Unicaja Malaga Unicaja Malaga",
+    "abbreviation": "MAL"
+  },
+  {
+    "id": 3126,
+    "conference": "    ",
+    "division": "",
+    "city": "MMT Estudiantes",
+    "name": "MMT Estudiantes",
+    "full_name": "MMT Estudiantes MMT Estudiantes",
+    "abbreviation": "MMT"
+  },
+  {
+    "id": 3139,
+    "conference": "    ",
+    "division": "",
+    "city": "Panathinaikos",
+    "name": "Panathinaikos",
+    "full_name": "Panathinaikos Panathinaikos",
+    "abbreviation": "PAN"
+  },
+  {
+    "id": 3142,
+    "conference": "    ",
+    "division": "",
+    "city": "Real Madrid",
+    "name": "Real Madrid",
+    "full_name": "Real Madrid Real Madrid",
+    "abbreviation": "RMA"
+  },
+  {
+    "id": 3183,
+    "conference": "    ",
+    "division": "",
+    "city": "Zalgiris Kaunas",
+    "name": "Zalgiris Kaunas",
+    "full_name": "Zalgiris Kaunas Zalgiris Kaunas",
+    "abbreviation": "ZAK"
+  },
+  {
+    "id": 3218,
+    "conference": "    ",
+    "division": "",
+    "city": "China",
+    "name": "Team China",
+    "full_name": "China Team China",
+    "abbreviation": "CHN"
+  },
+  {
+    "id": 3487,
+    "conference": "    ",
+    "division": "",
+    "city": "Vilnius",
+    "name": "Lietuvos Rytas",
+    "full_name": "Vilnius Lietuvos Rytas",
+    "abbreviation": "LRY"
+  },
+  {
+    "id": 3535,
+    "conference": "    ",
+    "division": "",
+    "city": "Belegrade",
+    "name": "Partizan",
+    "full_name": "Belegrade Partizan",
+    "abbreviation": "PAR"
+  },
+  {
+    "id": 3595,
+    "conference": "    ",
+    "division": "",
+    "city": "Athens",
+    "name": "Olympiacos",
+    "full_name": "Athens Olympiacos",
+    "abbreviation": "OLP"
+  },
+  {
+    "id": 3766,
+    "conference": "    ",
+    "division": "",
+    "city": "Milano",
+    "name": "Armani Jeans Milano",
+    "full_name": "Milano Armani Jeans Milano",
+    "abbreviation": "MLN"
+  },
+  {
+    "id": 3771,
+    "conference": "    ",
+    "division": "",
+    "city": "Haifa",
+    "name": "Maccabi Haifa",
+    "full_name": "Haifa Maccabi Haifa",
+    "abbreviation": "MAC"
+  },
+  {
+    "id": 3887,
+    "conference": "    ",
+    "division": "",
+    "city": "Vitoria",
+    "name": "Caja Laboral",
+    "full_name": "Vitoria Caja Laboral",
+    "abbreviation": "LAB"
+  },
+  {
+    "id": 4064,
+    "conference": "    ",
+    "division": "",
+    "city": "Istanbul",
+    "name": "Fenerbahce Ulker",
+    "full_name": "Istanbul Fenerbahce Ulker",
+    "abbreviation": "FBU"
+  },
+  {
+    "id": 4066,
+    "conference": "    ",
+    "division": "",
+    "city": "Berlin",
+    "name": "Alba Berlin",
+    "full_name": "Berlin Alba Berlin",
+    "abbreviation": "ALB"
+  },
+  {
+    "id": 4069,
+    "conference": "    ",
+    "division": "",
+    "city": "Siena",
+    "name": "Montepaschi Siena",
+    "full_name": "Siena Montepaschi Siena",
+    "abbreviation": "MPS"
+  },
+  {
+    "id": 4304,
+    "conference": "    ",
+    "division": "",
+    "city": "Bilbao",
+    "name": "Basket",
+    "full_name": "Bilbao Basket",
+    "abbreviation": "UBB"
+  },
+  {
+    "id": 4533,
+    "conference": "    ",
+    "division": "",
+    "city": "Tel Aviv",
+    "name": "Maccabi Electra",
+    "full_name": "Tel Aviv Maccabi Electra",
+    "abbreviation": "MTA"
+  },
+  {
+    "id": 4565,
+    "conference": "    ",
+    "division": "",
+    "city": "Flamengo",
+    "name": "Flamengo",
+    "full_name": "Flamengo Flamengo",
+    "abbreviation": "FLA"
+  },
+  {
+    "id": 4805,
+    "conference": "    ",
+    "division": "",
+    "city": "Bauru",
+    "name": "Paschoalotto/Bauru",
+    "full_name": "Bauru Paschoalotto/Bauru",
+    "abbreviation": "BAU"
+  },
+  {
+    "id": 4985,
+    "conference": "    ",
+    "division": "",
+    "city": "Shanghai",
+    "name": "Shanghai Sharks",
+    "full_name": "Shanghai Shanghai Sharks",
+    "abbreviation": "SDS"
+  },
+  {
+    "id": 5097,
+    "conference": "    ",
+    "division": "",
+    "city": "Buenos Aires",
+    "name": "San Lorenzo",
+    "full_name": "Buenos Aires San Lorenzo",
+    "abbreviation": "SLA"
+  },
+  {
+    "id": 5193,
+    "conference": "    ",
+    "division": "",
+    "city": "Guangzhou",
+    "name": "Long-Lions",
+    "full_name": "Guangzhou Long-Lions",
+    "abbreviation": "GUA"
+  },
+  {
+    "id": 5197,
+    "conference": "    ",
+    "division": "",
+    "city": "Sydney",
+    "name": "Kings",
+    "full_name": "Sydney Kings",
+    "abbreviation": "SYD"
+  },
+  {
+    "id": 5257,
+    "conference": "    ",
+    "division": "",
+    "city": "Melbourne",
+    "name": "United",
+    "full_name": "Melbourne United",
+    "abbreviation": "MEL"
+  },
+  {
+    "id": 5327,
+    "conference": "    ",
+    "division": "",
+    "city": "Brisbane",
+    "name": "Bullets",
+    "full_name": "Brisbane Bullets",
+    "abbreviation": "BNE"
+  },
+  {
+    "id": 5341,
+    "conference": "    ",
+    "division": "",
+    "city": "Beijing",
+    "name": "Ducks",
+    "full_name": "Beijing Ducks",
+    "abbreviation": "BJD"
+  },
+  {
+    "id": 5345,
+    "conference": "    ",
+    "division": "",
+    "city": "Perth",
+    "name": "Wildcats",
+    "full_name": "Perth Wildcats",
+    "abbreviation": "PER"
+  },
+  {
+    "id": 5383,
+    "conference": "    ",
+    "division": "",
+    "city": "New Zealand",
+    "name": "Breakers",
+    "full_name": "New Zealand Breakers",
+    "abbreviation": "NZB"
+  },
+  {
+    "id": 5411,
+    "conference": "    ",
+    "division": "",
+    "city": "Adelaide",
+    "name": "36ers",
+    "full_name": "Adelaide 36ers",
+    "abbreviation": "ADL"
+  },
+  {
+    "id": 5501,
+    "conference": "    ",
+    "division": "",
+    "city": "SESI/Franca",
+    "name": "Basketball Club of Brazil",
+    "full_name": "SESI/Franca Basketball Club of Brazil",
+    "abbreviation": "FRA"
+  },
+  {
+    "id": 5949,
+    "conference": "    ",
+    "division": "",
+    "city": "Ra'anana",
+    "name": "Maccabi Ra'anana",
+    "full_name": "Ra'anana Maccabi Ra'anana",
+    "abbreviation": "MRA"
+  },
+  {
+    "id": 6113,
+    "conference": "    ",
+    "division": "",
+    "city": "Cairns",
+    "name": "Taipans",
+    "full_name": "Cairns Taipans",
+    "abbreviation": "CNS"
+  },
+  {
+    "id": 6349,
+    "conference": "    ",
+    "division": "",
+    "city": "Ratiopharm",
+    "name": "Ulm",
+    "full_name": "Ratiopharm Ulm",
+    "abbreviation": "ULM"
+  },
+  {
+    "id": 6399,
+    "conference": "    ",
+    "division": "",
+    "city": "South East Melbourne",
+    "name": "Phoenix",
+    "full_name": "South East Melbourne Phoenix",
+    "abbreviation": "SEM"
+  },
+  {
+    "id": 6429,
+    "conference": "    ",
+    "division": "",
+    "city": "Hapoel",
+    "name": "Jerusalem B.C.",
+    "full_name": "Hapoel Jerusalem B.C.",
+    "abbreviation": "HAP"
+  },
+  {
+    "id": 216597,
+    "conference": "    ",
+    "division": "",
+    "city": "London",
+    "name": "Lions",
+    "full_name": "London Lions",
+    "abbreviation": "LON"
+  }
+]

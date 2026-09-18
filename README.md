@@ -7,6 +7,6 @@ Includes:
 - Dashboards
 - Analysis predictions
 
-Step 1- Fetching Data:
+#### Step 1- Fetching Data:
 - Using player, team, and season games data
 - Pulling from seasons 2021 to 2025

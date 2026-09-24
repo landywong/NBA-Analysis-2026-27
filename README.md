@@ -11,7 +11,7 @@ Includes:
 - Main Pitch: Which teams have the highest chance of making the playoffs?
 - Offensive vs defensive influence; which has stronger correlation?
 - Does high defense increase influence during playoff runs?
-- Star players vs team synergy; which contributes more?
+- How does the positional distribution affect teams?
 
 ### Step 1- Fetching Data:
 - Using player, team, and season game data

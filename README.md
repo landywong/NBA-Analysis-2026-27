@@ -16,3 +16,4 @@ Includes:
 ### Step 1- Fetching Data:
 - Using player, team, and season game data
 - Pulling from seasons 2021 to 2025
+- Focus on player box scores for correlation analysis

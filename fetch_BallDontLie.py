@@ -110,6 +110,11 @@ def save_raw(endpoint_name, records):
 START_SEASON = 2021
 END_SEASON = 2025  # balldontlie labels a season by its starting year (e.g. 2025 = 2025-26)
 
+# Box-score stats are far higher volume (one row per player per game) — scope
+# this to a narrower window than games/players to keep the pull manageable.
+STATS_START_SEASON = 2024
+STATS_END_SEASON = 2025
+
 
 def raw_file_exists(name):
     return (RAW_DATA_DIR / f"{name}.json").exists()
@@ -147,6 +152,25 @@ def fetch_games_by_season(start_year, end_year):
         save_raw(file_name, games)
 
 
+def fetch_stats_by_season(start_year, end_year):
+    """
+    Pull player box-score stats one season at a time and save each to its
+    own raw file. One row per player per game — much larger volume than
+    games, so this is the slowest part of acquisition. Resumable like
+    fetch_games_by_season: completed seasons are skipped on rerun.
+    """
+    for year in range(start_year, end_year + 1):
+        file_name = f"stats_{year}"
+
+        if raw_file_exists(file_name):
+            print(f"{file_name}.json already exists — skipping")
+            continue
+
+        print(f"\n=== Fetching player stats for season {year} ===")
+        stats = fetch_all_pages("stats", params={"seasons[]": year})
+        save_raw(file_name, stats)
+
+
 def main():
     # Teams — small, single-page (already validated)
     teams = fetch_all_pages("teams")
@@ -155,8 +179,12 @@ def main():
     # Players — full database, no season filter available
     fetch_players()
 
-    # Games — one file per season, 2005 through 2025, resumable
+    # Games — one file per season, resumable
     fetch_games_by_season(START_SEASON, END_SEASON)
+
+    # Player box-score stats — one file per season, resumable
+    # Scoped to a narrower window than games (much higher volume per season)
+    fetch_stats_by_season(STATS_START_SEASON, STATS_END_SEASON)
 
 
 if __name__ == "__main__":

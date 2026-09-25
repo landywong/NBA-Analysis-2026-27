@@ -1,5 +1,5 @@
 # NBA-Analysis-2026-27  
-(In progress)
+(In progress)  
 Data analysis &amp; prediction of the 2026-27 NBA season. (Using 2021-25 data)  
 Uses BallDontLie API: https://www.balldontlie.io/  
   
